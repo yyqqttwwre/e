@@ -21,8 +21,13 @@
             "value": "6d99cb2b60a2c519fc1f99bd19565730",
             "required": true
         },
+        "DEVLOO": {
+            "description": "ايـدي الـمـطور",
+            "value": "6581896306",
+            "required": true
+        },
         "bot_token": {
-            "bot_token": "توكن البوت",
+            "description": "توكن البوت",
             "value": "6635986173:AAEBuYxPVay10-qYXqrIlXj7Fyr8syQK7jM",
             "required": true
         },
@@ -31,5 +36,15 @@
             "value": "ee0obot",
             "required": true
         },
+        "id_bot": {
+            "description": "ايدي البوت",
+            "value": "6635986173",
+            "required": true
+        },
+    "session": {
+        "description": "كود تيرمكـس",
+        "value": "",
+        "required": true
+    }
   }
 } 
