@@ -1,4 +1,4 @@
-#تم النشر بواسطة : 
+#تم النشر.. بواسطة : 
 #• https://t.me/F_E_Y 
 #• https://t.me/Se7en_Eyes
 
@@ -63,9 +63,9 @@ except ImportError:
             print("Failed to install requests with pip and pip:", str(e))
             exit(0)
 import json
-API_ID = '25281175'
-API_HASH = '7245de8e747a0d6fbe11f7cc14fcc0bb'
-bot_token = ""
+API_ID = data['API_ID']
+API_HASH = data['API_HASH']
+bot_token = data['bot_token']
 running_processes = {}
 try:
     with open("echo_data.json", "r") as json_file:
@@ -75,7 +75,7 @@ except FileNotFoundError:
 
 if "token" not in info:
     while (True):
-        bot_token = ('6335197909:AAHn_GI0IQOPdFxLfJ9oR_py1aEmP1Vc-Hw')
+        bot_token = 
         response = requests.request(
             "GET", f"https://api.telegram.org/bot{bot_token}/getme")
         response_json = response.json()
